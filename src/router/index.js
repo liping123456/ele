@@ -10,6 +10,7 @@ import Mine from '../components/Mine'
 
 // 创建路由实例，并且配置路由规则
 export default new VueRouter({
+  mode:'history', 
   // 这里写路由规则
   routes: [
     // 这个path就是router-link里的to跳转的地址
